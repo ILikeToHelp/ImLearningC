@@ -7,3 +7,6 @@ There is also the "My Library" directory, where I put the most recent, most usef
 The folder will also contain some non-book related programs which I write out of curiosity, boredom or for fun. Though not based on the book exercises or examples those programs will most likely re-enforce the topics introduced by the book.
 
 Hope everything you find here will be useful, and if you know a more optimized solution or you've spotted a mistake, please let me know!
+
+P.S.
+All code should be commented in such manner that allows everybody to read the code and makes sense out of it. If **any** part of the program seems unclear/and or the comments are lacking, please report this!
