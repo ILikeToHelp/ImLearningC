@@ -138,11 +138,3 @@ void horizontalHistogram(int longest, int wordLengthArray[])
     printf("\n");
   }
 }
-
-// printf("Longest word's length: %d\n", longest);
-// printf("The word: ");
-// for (int i = longestEndsAt - longest; i < longestEndsAt; i++)
-// {
-//   printf("%c", inputArray[i - 1]);
-// }
-// printf("\n");
