@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 /*
 	funtion to return x,
 	which n bits to the right of the bit at position p
@@ -15,14 +13,6 @@
 	or for n = 2, p = 4 should return 10(01)10
 
 */
-
-unsigned getbits(unsigned, int ,int);
-
-int main(){
-	unsigned n_bits_of_y_in_x(unsigned x, unsigned y, int p, int n);
-	printf("%u\n", n_bits_of_y_in_x(42,33,4,2));
-	return 0;
-}
 
 unsigned n_bits_of_y_in_x(unsigned x, unsigned y, int p, int n){
 	unsigned nBitsOfY = y & (~(~0 << n));
