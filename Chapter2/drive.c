@@ -3,8 +3,12 @@
 #include <limits.h>
 // 32 16 8 4 2 1
 // 1  1  1 1 0 0
-unsigned rightrot(unsigned x, int n);
+int lower(int c);
 int main(){
-  printf("ANSWER: %u", rightrot(60,2));
+  int c;
+  while(c != EOF){
+    c = getchar();
+    printf("%c", lower(c));
+  }
   return 0;
 }
